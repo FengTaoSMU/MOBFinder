@@ -43,7 +43,7 @@ MOBFinder is developed using some dependencies, and we recommend using conda to 
 ```
 
 ## Installation
-Clone this repository to your local linux PC and activate the environment.
+Clone this repository to your local linux PC.
 ```
 % git clone  https://github.com/FengTaoSMU/MOBFinder.git
 % cd MOBFinder
