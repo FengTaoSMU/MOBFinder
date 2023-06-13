@@ -44,7 +44,7 @@ MOBFinder is developed using some dependencies, and we recommend using conda to 
 
 ## Installation
 ```
-% git clone https://github.com/FengTaoSMU/MOBFinder/MOBFinder.git
+% git clone  https://github.com/FengTaoSMU/MOBFinder.git
 % cd MOBFinder
 % conda activate mobfinder
 ```
