@@ -43,6 +43,7 @@ MOBFinder is developed using some dependencies, and we recommend using conda to 
 ```
 
 ## Installation
+Clone this repository to your local linux PC and activate the environment.
 ```
 % git clone  https://github.com/FengTaoSMU/MOBFinder.git
 % cd MOBFinder
@@ -58,12 +59,12 @@ MOBFinder is developed using some dependencies, and we recommend using conda to 
 ### Output files
 | File | Description |
 | ------------ | ------------ |
-| test_mobfinder_result.tsv | This file contians the predicted MOB class of each plasmid fragment and scores of each MOB classes |
+| test_mobfinder_result.tsv | This file contians the predicted MOB class of each plasmid fragment and scores for each MOB classes |
 ### Output file format
 | field  | Description |
 | --------- |  --------- | 
-| id | Plasmid fragment id |
-| class | Predicted classes of each plasmid fragments |
+| id | Plasmid fragments' id |
+| class | Predicted classes of each plasmid fragment |
 | mobb_score | Score of MOBB |
 | mobc_score | Score of MOBC |
 | mobf_score | Score of MOBF |
@@ -78,13 +79,13 @@ MOBFinder is developed using some dependencies, and we recommend using conda to 
 
 ## MOB typing for plasmid metagenomic bins
 ```
-# input: a fasta file contains plasmid fragments and a meta file contains plasmid fragments' id and its bin id
+# input: a fasta file contains plasmid fragments and a meta file mapping the fragments’ id to their corresponding bins' id
 % python3 MOBFinder_bin.py -i ./testdata/test_bin.fa -b ./testdata/test.tsv -o .
 ```
 ### Output files
 | File | Description |
 | ------------ | ------------ |
-| test_mobfinder_result.tsv | This file contians the predicted MOB class of each plasmid fragment and scores of each MOB classes |
+| test_mobfinder_result.tsv | This file contians the predicted MOB class of each plasmid bin and scores of each MOB classes |
 ### Output file format
 | field  | Description |
 | --------- |  --------- | 
@@ -107,5 +108,4 @@ MOBFinder is developed using some dependencies, and we recommend using conda to 
 Tao Feng - fengtaosmu@foxmail.com
 
 ## License
-
 MOBFinder is distributed under a GPL-3.0 license.
