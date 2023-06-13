@@ -58,9 +58,9 @@ Feng T, Wu S, Fang Z and Zhou H. "MOBFinder: a tool for MOB typing for plasmid m
 ### Output files
 | File | Description |
 | ------------ | ------------ |
-| test_mobfinder_result.tsv | This file contians the predicted MOB class of each plasmid fragments and scores of each MOB classes |
+| test_mobfinder_result.tsv | This file contians the predicted MOB class of each plasmid fragment and scores of each MOB classes |
 
-# Output file format
+### Output file format
 | field  | Description |
 | --------- |  --------- | 
 | id | Plasmid fragment id |
@@ -77,11 +77,9 @@ Feng T, Wu S, Fang Z and Zhou H. "MOBFinder: a tool for MOB typing for plasmid m
 | mobv_score | Score of MOBV |
 | non-mob_score | Score of Non-mob |
 
-
-## Using MOBFinder to perform MOB typing for plasmid metagenomic bins
-
+## MOB typing for plasmid metagenomic bins
 ```
-# input: a plasmid fragments fasta file with unique id, a meta file records the mapping relationship of plasmid fragment id and bin id
+# input 1: a fasta file contains plasmid fragments and a meta file contains plasmid fragments' id and its bin id
 # output: test_bin_mobfinder_binning_result.tsv
 % python3 MOBFinder_bin.py -i ./testdata/test_bin.fa -b ./testdata/test.tsv -o .
 ```
