@@ -3,13 +3,12 @@
 ## Introduction
 Mobilization (MOB) typing is a classification scheme to classify plasmids based on their mobility or transferability, and it can help us understand the mechanism by which plasmids are transferred between bacterial cells. MOBFinder is developed for MOB typing for plasmid fragments and bins in metagenomic data
 
-Based on the natural language processing technique, MOBFinder uses the word vector language model to characterize the plasmid fragments. Then MOBFinder predicts the MOB type of the plasmid metagenomic fragments using several random forest classification models, which can be manually downloaded from [here](https://www.jianguoyun.com/p/DWMTw1oQ5cbbCxjfk44FIAA).
+Based on the natural language processing technique, MOBFinder uses the word vector language model to characterize the plasmid fragments from different MOB types. Based on the plasmid fragments represented by the word vector, several random forest classification models were trained and integrated for predicting plasmid fragments with different lengths，which can be manually downloaded from [here](https://www.jianguoyun.com/p/DWMTw1oQ5cbbCxjfk44FIAA).
+
+MOBFinder takes one or multiple plasmid DNA sequences as input and outputs predicted MOB types for each fragment, including MOBB, MOBC, MOBF, MOBH, MOBL, MOBM, MOBP, MOBQ, MOBT, MOBV and non-mobilizable (non-mob). Plasmid bins in metagenomics can also be annotated using MOBFinder.
 
 ## Citations
 Tao F, Shufang W, Zhencheng Fang and Hongwei Z. "MOBFinder: a tool for MOB typing for plasmid metagenomic fragments based on language model."
-
-
-## Preparation ##
 
 ## Requires
 + Python >= 3.9.11
@@ -25,10 +24,9 @@ Tao F, Shufang W, Zhencheng Fang and Hongwei Z. "MOBFinder: a tool for MOB typin
 + r-base >= 4.2.0
 + r-randomforest >= 4.7_1.1
 
-
 ## Installation
-
 ```
+# Install dependencies using conda
 % conda config --add channels defaults
 % conda config --add channels conda-forge
 % conda config --add channels bioconda
@@ -41,10 +39,14 @@ Tao F, Shufang W, Zhencheng Fang and Hongwei Z. "MOBFinder: a tool for MOB typin
 % conda install r-base
 % conda install r-randomforest
 % conda install -c bioconda blast
-% git clone https://github.com/phac-nml/mob-suite.git
-%
 ```
-## Usage
+
+## Test
+```
+% git clone https://github.com/FengTaoSMU/MOBFinder/MOBFinder.git
+% cd MOBFinder
+% conda activate mobfinder
+```
 
 ## Using MOBFinder to perform MOB typing for plasmid metagenomic fragments
 
