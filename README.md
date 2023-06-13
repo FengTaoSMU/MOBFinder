@@ -103,7 +103,7 @@ For plasmid metagenomic bins, MOBFinder requires two input files: a FASTA file c
 
 
 ## Contact
-Tao Feng - fengtaosmu@foxmail.com
+Feng Tao - fengtaosmu@foxmail.com
 
 ## License
 MOBFinder is distributed under a GPL-3.0 license.
