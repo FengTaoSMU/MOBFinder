@@ -24,7 +24,7 @@ Feng T, Wu S, Fang Z and Zhou H. "MOBFinder: a tool for MOB typing for plasmid m
 + r-base >= 4.2.0
 + r-randomforest >= 4.7_1.1
 
-## Installation
+## Environment preparation
 ```
 # Install dependencies using conda
 % conda config --add channels defaults
@@ -41,14 +41,14 @@ Feng T, Wu S, Fang Z and Zhou H. "MOBFinder: a tool for MOB typing for plasmid m
 % conda install -c bioconda blast
 ```
 
-## Test
+## Installation
 ```
 % git clone https://github.com/FengTaoSMU/MOBFinder/MOBFinder.git
 % cd MOBFinder
 % conda activate mobfinder
 ```
 
-## Using MOBFinder to perform MOB typing for plasmid metagenomic fragments
+## Usage
 
 ```
 # input: Plasmid fragments fasta file with unique id
