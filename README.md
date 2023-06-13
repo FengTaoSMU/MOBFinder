@@ -8,7 +8,7 @@ Based on the natural language processing technique, MOBFinder uses the word vect
 MOBFinder takes one or multiple plasmid DNA sequences as input and outputs predicted MOB types for each fragment, including MOBB, MOBC, MOBF, MOBH, MOBL, MOBM, MOBP, MOBQ, MOBT, MOBV and non-mobilizable (non-mob). Plasmid bins in metagenomics can also be annotated using MOBFinder.
 
 ## Citations
-Tao F, Shufang W, Zhencheng Fang and Hongwei Z. "MOBFinder: a tool for MOB typing for plasmid metagenomic fragments based on language model."
+Feng T, Wu S, Fang Z and Zhou H. "MOBFinder: a tool for MOB typing for plasmid metagenomic fragments based on language model."
 
 ## Requires
 + Python >= 3.9.11
