@@ -1,5 +1,0 @@
-# This directory contains four classification models trained using Random Forest.
-Model 1: model_100_400.rds
-Model 2: model_401_800.rds
-Model 3: model_801_1200.rds
-Model 4: model_1201_1600.rds
