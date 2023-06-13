@@ -1,5 +1,0 @@
-# Four trained classification models
-model_100_400.rds
-model_401_800.rds
-model_801_1200.rds
-model_1201_1600.rds
