@@ -79,7 +79,7 @@ Clone this repository to your local linux PC and activate the environment.
 
 ## MOB typing for plasmid metagenomic bins
 ```
-# input: a fasta file contains plasmid fragments and a meta file mapping the fragments’ id to their corresponding bins' id
+# input: a fasta file contains plasmid fragments and a meta table that records the mapping between plasmid fragment IDs and bin IDs.
 % python3 MOBFinder_bin.py -i ./testdata/test_bin.fa -b ./testdata/test.tsv -o .
 ```
 ### Output files
