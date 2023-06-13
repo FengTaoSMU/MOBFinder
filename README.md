@@ -25,11 +25,12 @@ Feng T, Wu S, Fang Z and Zhou H. "MOBFinder: a tool for MOB typing for plasmid m
 + r-randomforest >= 4.7_1.1
 
 ## Environment preparation
+MOBFinder is developed using some dependencies, and we recommend using conda to install them.
 ```
-# Install dependencies using conda
 % conda config --add channels defaults
 % conda config --add channels conda-forge
 % conda config --add channels bioconda
+
 % conda create -n mobfinder
 % conda activate mobfinder
 % conda install python
