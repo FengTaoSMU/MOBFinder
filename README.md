@@ -77,9 +77,8 @@ For plasmid metagenomic fragments, MOBFinder takes a FASTA file as input. The ou
 | non-mob_score | Score of Non-mob |
 
 ## MOB typing for plasmid metagenomic bins
-For plasmid metagenomic bins, MOBFinder requires two input files: a FASTA file containing the plasmid fragments and a meta table that records the mapping between plasmid fragment IDs and bin IDs. The output results are similar to the output of plasmid fragments. The first column is plasmid bin’s id. The second column is the predicted MOB class of plasmid bins. The other columns were MOB scores of different MOB categories produced by MOBFinder. Here, the input fasta file is [test_bin.fa](testdata/test_bin.fa), and the input meta table is [test.tsv](testdata/test.tsv) 
+For plasmid metagenomic bins, MOBFinder requires two input files: a FASTA file containing the plasmid fragments and a meta table that records the mapping between plasmid fragment IDs and bin IDs. The output results are similar to the output of plasmid fragments. The first column is plasmid bin’s id. The second column is the predicted MOB class of plasmid bins. The other columns were MOB scores of different MOB categories produced by MOBFinder. Here, the input fasta file is [test_bin.fa](testdata/test_bin.fa), and the input meta table is [test.tsv](testdata/test.tsv). 
 ```
-# input: a fasta file contains plasmid fragments and a meta table that records the mapping between plasmid fragment IDs and bin IDs.
 % python3 MOBFinder_bin.py -i ./testdata/test_bin.fa -b ./testdata/test.tsv -o .
 ```
 ### Output files
