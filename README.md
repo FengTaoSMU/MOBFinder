@@ -50,7 +50,6 @@ Clone this repository to your local linux PC and activate the environment.
 % cd MOBFinder
 ```
 
-## Usage
 ## MOB typing for plasmid metagenomic fragments
 For plasmid metagenomic fragments, MOBFinder takes a FASTA file as input. The output file consists of 13 columns. The first column represents the fragment ID, the second column displays the predicted MOB type, and columns three to thirteen represent the scores for each MOB class, namely MOBB, MOBC, MOBF, MOBH, MOBL, MOBM, MOBP, MOBQ, MOBT, MOBV, and non-mob. Here, the input fasta file is [test.fa](testdata/test.fa) 
 ```
