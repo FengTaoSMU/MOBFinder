@@ -85,8 +85,8 @@ For plasmid metagenomic bins, MOBFinder requires two input files: a FASTA file c
 | ------------ | ------------ |
 | test_bin_mobfinder_binning_result.tsv | This file contians the predicted MOB class of each plasmid bin and scores of each MOB classes |
 ### Output file format
-| field  | Description |
-| --------- |  --------- | 
+| field | Description |
+| :---------: | :---------: | 
 | id | Plasmid bins' id |
 | class | Predicted classes of each plasmid bin |
 | mobb_score | Score of MOBB |
