@@ -49,6 +49,10 @@ Clone this repository to your local linux PC.
 % cd MOBFinder
 ```
 
+Since the model trained by MOBFinder is large and exceeds GitHub's file upload limits, we provide an additional download link for the model.
+
+Users need to download the model and place it in the /model folder. The download links are: https://zenodo.org/records/13368995 or https://www.jianguoyun.com/p/DWMTw1oQ5cbbCxjfk44FIAA.
+
 ## MOB typing for plasmid metagenomic fragments
 For plasmid metagenomic fragments, MOBFinder takes a FASTA file as input. The output file consists of 13 columns. The first column represents the fragment ID, the second column displays the predicted MOB type, and columns three to thirteen represent the scores for each MOB class, namely MOBB, MOBC, MOBF, MOBH, MOBL, MOBM, MOBP, MOBQ, MOBT, MOBV, and non-mob. Here, the input fasta file is [test.fa](testdata/test.fa) 
 ```
