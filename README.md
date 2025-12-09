@@ -1,7 +1,7 @@
 # MOBFinder: a tool for mobilization typing for plasmid metagenomic fragments based on a language model
 
 ## Change logs
-2025.12.09 The README.md was updated with a few modification.
+2025.12.09 The README.md and MOBFinder.py have been updated with a few modification. The conda environment file (environment.yaml) for MOBFinder has been uploaded.
 
 ## Introduction
 Mobilization typing (MOB) is a classification scheme to classify plasmids based on their mobility or transferability, and it can help us understand the mechanism by which plasmids are transferred between bacterial cells. MOBFinder is developed for MOB typing for plasmid fragments and bins in metagenomic data.
