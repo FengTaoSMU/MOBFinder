@@ -6,7 +6,7 @@
 ## Introduction
 Mobilization typing (MOB) is a classification scheme to classify plasmids based on their mobility or transferability, and it can help us understand the mechanism by which plasmids are transferred between bacterial cells. MOBFinder is developed for MOB typing for plasmid fragments and bins in metagenomic data.
 
-Based on the natural language processing technique, MOBFinder uses the word vector language model to characterize the plasmid fragments from different MOB types. Based on the plasmid fragments represented by the word vector, several random forest classification models were trained and integrated for predicting plasmid fragments with different lengths，which can be manually downloaded from [here](https://zenodo.org/records/13368995) or [here](https://www.jianguoyun.com/p/DWMTw1oQ5cbbCxjfk44FIAA).
+Based on the natural language processing technique, MOBFinder uses the word vector language model to characterize the plasmid fragments from different MOB types. Based on the plasmid fragments represented by the word vector, several random forest classification models were trained and integrated for predicting plasmid fragments with different lengths，which can be manually downloaded from [here](https://zenodo.org/records/13368995).
 
 MOBFinder takes one or multiple plasmid DNA sequences as input and outputs predicted MOB types for each fragment, including MOBB, MOBC, MOBF, MOBH, MOBL, MOBM, MOBP, MOBQ, MOBT, MOBV and non-mobilizable (non-mob). Plasmid bins in metagenomics can also be annotated using MOBFinder.
 
