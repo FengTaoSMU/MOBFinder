@@ -128,6 +128,11 @@ def fasta_vector_convert(vector, fasta, fasta_name, batch_list, outputdir):
 				number += 1
 			else:
 				contig += line.strip()
+		if number == 1:
+			batch_id = "{}{}_1.tsv".format(outputdir, fasta_name)
+			batch_result = "{}{}_1.result".format(outputdir, fasta_name)
+			output_list.write("{}\t{}\n".format(batch_id, batch_result))
+			output = open(batch_id, 'w+')
 		vector_calculate(contig_id, contig, vectors, output)
 	output.close()
 	output_list.close()
